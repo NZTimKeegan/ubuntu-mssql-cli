@@ -9,4 +9,4 @@ RUN curl 'https://packages.microsoft.com/keys/microsoft.asc' | apt-key add - \
     && apt -y install mssql-cli \
     && apt -y install -f
 
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT ["/bin/bash"]
